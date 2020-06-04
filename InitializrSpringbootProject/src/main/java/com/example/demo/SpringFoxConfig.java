@@ -26,7 +26,7 @@ public class SpringFoxConfig {
                 "API TH",
                 "Cette API est la propriété exclusive de la LSIO. contacter la LSIO pour plus d'informations.",
                 new Contact("Tondeur Hervé", "http://www.tondeurh.fr", "tondeur-h@uphf.fr"),
-                "Propriété du CH Valenciennes (c) 2019",
+                "Propriété de l'ISTV 2020",
                 "http://www.uphf.fr",
                 Collections.emptyList());
     }
