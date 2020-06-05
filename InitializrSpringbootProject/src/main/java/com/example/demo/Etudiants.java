@@ -1,11 +1,22 @@
 package com.example.demo;
 
-public class Etudiants {
+//POJO ou JavaBean Etudiants
+//contient des accesseurs Get et Set
+// un ou plusieurs constructeurs
+// une implémentation override de la méthode toString()
+
+import java.io.Serializable;
+
+
+public class Etudiants implements Serializable{
 int ID;
 String nom;
 String prenom;
 String constante;
 String date_insc;
+//ces variables seront sérialisé et desérialisé via le format Json grâce 
+// aux méthodes GET et SET des accesseurs.
+
 
     @Override
     public String toString() {

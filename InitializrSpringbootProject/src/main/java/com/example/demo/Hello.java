@@ -1,6 +1,14 @@
 package com.example.demo;
 
-public class Hello {
+//POJO ou JavaBean Hello
+
+import java.io.Serializable;
+
+//contient des accesseurs Get et Set
+// un ou plusieurs constructeurs
+// une implémentation override de la méthode toString()
+
+public class Hello implements Serializable {
 
     String nom;
 

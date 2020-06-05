@@ -1,6 +1,14 @@
 package com.example.demo;
 
-class Token {
+//POJO ou JavaBean Token
+
+import java.io.Serializable;
+
+//contient des accesseurs Get et Set
+// un ou plusieurs constructeurs
+// une implémentation override de la méthode toString()
+
+class Token implements Serializable{
 
 String jeton;
 

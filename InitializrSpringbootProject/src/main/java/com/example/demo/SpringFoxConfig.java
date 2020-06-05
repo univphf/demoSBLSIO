@@ -26,11 +26,12 @@ public class SpringFoxConfig {
                 "API TH",
                 "Cette API est la propriété exclusive de la LSIO. contacter la LSIO pour plus d'informations.",
                 new Contact("Tondeur Hervé", "http://www.tondeurh.fr", "tondeur-h@uphf.fr"),
-                "Propriété de l'ISTV 2020",
+                "Propriété du CH Valenciennes (c) 2019",
                 "http://www.uphf.fr",
                 Collections.emptyList());
     }
 
+    
     @Bean
     public Docket api() {
         return new Docket(DocumentationType.SWAGGER_2)
